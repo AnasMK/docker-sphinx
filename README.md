@@ -2,6 +2,12 @@
 
 [Sphinx](http://www.sphinx-doc.org/en/stable/) is a tool that makes it easy to create intelligent and beautiful documentation. It is also the technology that [ReadTheDocs](https://readthedocs.org/) uses to build their documentation. This image helps you get started with sphinx without installing any dependencies on your computer. The only prerequirement is [Docker](http://docker.com/).
 
+## Changelog
+### 31/8/2021
+- Fixed entrypoint.sh if source and build seprated
+- Fixed command args
+- Chnaged command build dir path
+
 ## Installation
 
 The image is publish on [docker hub](http://hub.docker.com/) named [`pardahlman/sphinx`](https://hub.docker.com/r/pardahlman/sphinx/).
